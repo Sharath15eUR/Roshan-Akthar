@@ -1,0 +1,32 @@
+Find the output of the following // Consider the compiler is 32-bit machine
+
+#include <stdio.h>
+
+typedef struct
+
+{
+
+char A;
+
+double B;
+
+char C;
+
+} InfoData;
+
+int main(int argc, char *argv[])
+
+{
+
+13121
+
+//Calculate size of structure
+
+printf("\n Size of Structure = %d\n\n",sizeof(InfoData));
+
+return 0;
+
+}
+
+
+OUTPUT: 16

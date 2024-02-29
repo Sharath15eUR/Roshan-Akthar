@@ -1,0 +1,3 @@
+Write an equivalent pointer expression for fetching the value of array element a[i][j][k][2]
+
+Answer :  *(*(*(*(a+i)+j)+k)+2)
