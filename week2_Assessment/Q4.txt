@@ -1,0 +1,11 @@
+4. List all queue function operations available for manipulation of data elements in c 
+
+Answer:
+
+1. enqueue(): Adds an element to the rear of the queue.
+2. dequeue(): Removes an element from the front of the queue.
+3. isEmpty(): Checks if the queue is empty.
+4. isFull():  Checks if the queue is full.
+5. front():   Returns the element at the front of the queue without removing it.
+6. rear():    Returns the element at the rear of the queue without removing it.
+7. initializeQueue():Initializes an empty queue.
