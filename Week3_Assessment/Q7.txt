@@ -1,0 +1,5 @@
+7. What is the difference between exec and fork ?
+
+
+1.fork starts a new process which is a copy of the one that calls it, while exec replaces the current process image with another (different) one.
+2.Both parent and child processes are executed simultaneously in case of fork() while Control never returns to the original program unless there is an exec() error.

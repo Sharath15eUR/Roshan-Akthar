@@ -1,0 +1,8 @@
+8. What is the difference between process and threads. 
+
+
+1.A process is independent and does not contained within another process, whereas all threads are logically contained within a process.
+2.Processes are heavily weighted, whereas threads are light-weighted.
+3.A process can exist individually as it contains its own memory and other resources, whereas a thread cannot have its individual existence.
+4.A proper synchronization between processes is not required. In contrast, threads need to be synchronized in order to avoid unexpected  scenarios.
+5.Processes can communicate with each other using inter-process communication only; in contrast, threads can directly communicate with each other as they share the same address space.

@@ -1,0 +1,12 @@
+6. How to avoid Race conditions and deadlocks? 
+
+
+•	To avoid race conditions,
+		1. Use Synchronization Mechanisms
+		2. Avoid Global Varaibles
+
+•	To avoid Deadlocks prevent any one of the four conditions,	
+		1.Mutual exclusion
+        	2.No preemption
+         	3.Hold and wait
+        	4.Circular wait
