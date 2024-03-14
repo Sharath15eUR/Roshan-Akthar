@@ -1,0 +1,16 @@
+2. List the gdb command for the following operations  
+   1.To run the current executable file
+   2.To create breakpoints at
+   3.To resume execution once after breakpoint
+   4.To clear break point created for a function
+   5.Print the parameters of the function in the backtrace
+
+
+
+Answer:
+
+ 1. run
+ 2. break
+ 3. continue
+ 4. clear
+ 5. info args
