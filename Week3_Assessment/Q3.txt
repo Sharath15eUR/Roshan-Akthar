@@ -1,0 +1,28 @@
+3. Guess the output for the following program.
+
+#include <stdio.h>
+
+#include <unistd.h>
+
+int main()
+
+{
+
+if (fork() && (!fork())) {
+
+if (fork() || fork()) {
+
+fork();
+
+}
+
+}
+
+printf("2");
+
+return 0;
+
+}
+
+
+OUTPUT: 2 2 2 2 2 2 2
