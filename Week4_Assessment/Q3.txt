@@ -1,0 +1,9 @@
+3. What is Datagram Socket ? 
+
+Answer:
+
+1. A Datagram Socket is for sending and receiving datagrams on some connectionless datagram like UDP/IP.
+
+2. It provides unreliable transmission of independent datagrams.
+
+3. Suitable for low-latency applications like multimedia streaming and real-time monitoring

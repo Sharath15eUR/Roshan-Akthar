@@ -1,0 +1,9 @@
+2. What is the use of bind() function in socket programming  ? 
+
+Answer:
+
+1.On systems with multiple network interfaces, bind() allows you to specify which interface the server socket should listen on. This ensures that incoming connections are received through the desired network interface.
+
+2.By specifying the IP address in the bind() call, you can restrict the server to listen for incoming connections only on that particular IP address. 
+
+3.The bind() function also associates a specific port number with the server socket. This allows clients to connect to the server using that port number.

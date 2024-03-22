@@ -1,0 +1,19 @@
+1.Explain the connection procedure followed in client server communication
+
+Answer:
+
+1. Creating a Socket: Both the client and server need to create sockets. The server creates a socket using the 'socket()' system call. 
+
+2. Specifying Address Information: For the server, you need to specify the address information like the IP address and port number on which the server will listen for incoming connections by using 'struct sockaddr_in' structure.
+
+3. Bind the Socket: After creating a socket, the server binds it to a specific address using the 'bind()' system call.
+
+4. Listen for Connections (Server side): The server then listens for incoming connections using the 'listen()' system call.
+
+5. Connect to Server (Client side): The client creates a socket similarly to the server. However, it does not need to bind to any specific address. Instead, it directly calls the `connect()` system call, specifying the server's address information (IP address and port number) in a 'struct sockaddr_in' structure. 
+
+6. Accept Connections (Server side): When a client tries to establish a connection, the server calls the `accept()` system call. This blocks the server until a client connects. Once a client connection is established, 'accept()' returns a new socket descriptor for the connection.
+
+7. Data Exchange: Both the client and server can exchange data using 'send()' and 'recv()' system calls.
+
+8. Close Sockets: After communication is complete, both the client and server should close their sockets using the 'close()' system call.
